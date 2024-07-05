@@ -54,7 +54,7 @@ int level;
         printf("\n\n");
 
         for(i = 0; i<level; i++){
-            printf("   ");
+            printf("     ");
         }
         printf("%d", tree->data);
         PrintTree(tree->left,level+1);
