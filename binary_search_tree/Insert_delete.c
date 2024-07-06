@@ -111,7 +111,7 @@ int data;
     }
     else
     {
-        if (data)
+        if (data<p->data)
         {
             p -> left = DeleteElement(p->left,data);
         }
